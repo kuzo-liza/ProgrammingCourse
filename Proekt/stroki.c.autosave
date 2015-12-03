@@ -1,0 +1,23 @@
+#include "stroki.h"
+ 
+int stroki()
+{
+    char myString[100];
+ 
+    printf( "Insert the text" );
+ 
+    fgets( myString, 100, stdin ); // читываем из потока ввода строку
+ 
+    int i;
+    for ( i = 0; i < 100; i++ )
+    {
+        if ( myString[i] == '\n' )
+        {
+            myString[i] = '\0';
+            break;
+        }
+    }
+ 
+    printf( "Вы ввели следующую строку: %s", myString );
+ 
+    getchar();

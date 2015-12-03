@@ -2,7 +2,6 @@
 
 void first_task()
 {
-    int input;
     printf("Insert a number of the program\n");
     scanf("%d", &input);
     switch(input)

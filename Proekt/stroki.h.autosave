@@ -1,0 +1,7 @@
+#ifndef STROKI
+#define STROKI
+
+#include "stdio.h"
+
+#endif // STROKI
+

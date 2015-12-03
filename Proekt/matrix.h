@@ -4,7 +4,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void matrix(void);
+void matrix();
+int n;
+int m;
+
+int i;
+
+
 void matrix_maker(int **matrica, int cols, int rows);
 
 #endif // MATRIX
