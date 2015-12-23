@@ -1,6 +1,6 @@
 #ifndef __FIRST_TASK_H
 #define __FIRST_TASK_H
-#include "stdio.h"
+#include <stdio.h>
 
 int hour_beginning, minutes_beginning, seconds_beginning;
 int hour_end, minutes_end, seconds_end;

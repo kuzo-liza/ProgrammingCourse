@@ -1,6 +1,4 @@
-#include "timetable.h"
-#include "first_task.h"
-#include "matrix.h"
+#include "main.h"
 
 int main (void)
 {
@@ -20,6 +18,10 @@ int main (void)
 
     case 3:
         matrix();
+        break;
+
+    case 4:
+        strings();
         break;
     }
     system("pause");

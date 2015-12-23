@@ -17,16 +17,17 @@ SOURCES += \
     matrix.c \
     matrix_maker.c \
     numbers.c \
-    stroki.c \
     is_it_a_triangle.c \
     a_gap_of_time.c \
-    what_type_of_triangle_is_it.c
+    what_type_of_triangle_is_it.c \
+    strings.c
 
 
 HEADERS += \
     timetable.h \
     first_task.h \
     matrix.h \
-    stroki.h
+    strings.h \
+    main.h
 
 
