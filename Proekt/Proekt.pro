@@ -9,25 +9,8 @@ CONFIG -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += \
-    timetable_work.c \
-    timetable.c \
-    main.c \
-    first_task.c \
-    matrix.c \
-    matrix_maker.c \
-    numbers.c \
-    is_it_a_triangle.c \
-    a_gap_of_time.c \
-    what_type_of_triangle_is_it.c \
-    strings.c
+TEMPLATE = subdirs
 
-
-HEADERS += \
-    timetable.h \
-    first_task.h \
-    matrix.h \
-    strings.h \
-    main.h
-
-
+SUBDIRS += \
+    App \
+   Plurality_App

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+
 void read_word(char *s, int *i, char *w)//чтение слова
 {
     int j;
