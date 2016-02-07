@@ -4,7 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    plurality.cpp
+    polynomial.cpp
 
-HEADERS +=
+HEADERS += \
+    polynomial.h
 

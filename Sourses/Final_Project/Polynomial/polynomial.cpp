@@ -181,3 +181,4 @@ void Polynomial::setPolynomialCoeff(unsigned int coeffNumber, double coeffValue)
 
     polynomialCoeff[coeffNumber] = coeffValue;
 }
+
